@@ -68,3 +68,6 @@ Random Forest Classifier : Random forest is robust, accurate, efficient and rela
 
 Above two models were trained, tested and evaluated. Metrics used for this analysis was Accuracy and Recall value. In machine learning our goal is to minimize Type I (FP) and Type II errors (FN). In an ideal case, a perfect model should have none of these errors. However, this is not possible in real world and we must balance between precision and recall. Even though, in the models we have tested, Accuracy was 97% in both Random Forest and Logistic Regression, Logistic Regression was chosen as a best model because it maximized the Recall value. Still, there were 2 False negative predictions in our best prediction which was lower than in Random Forest. In this scenario, we prefer a model which would minimize false negatives hence helping us to not miss cancers which require intensive treatment as soon as they are diagnosed. 
 
+
+## References
+1. https://th.bing.com/th/id/R723ed7f0e95e83a2efa4853acd13978e?rik=s2%2b0Bo%2fCCmqdsQ&riu=http%3a%2f%2fimages.medicinenet.com%2fimages%2fquiz%2fbreast-cancer%2fbreast-cancer-s-6.jpg&ehk=JrPYGsFg%2fZGv976FHQ%2b%2b7mRHUwjGYgMCokKJ6iFtDAo%3d&risl=&pid=ImgRaw
