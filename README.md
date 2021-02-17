@@ -1,5 +1,7 @@
 # Breast Cancer Predicton
 
+ <img src = "Images/1.jfif" >
+
 ## Problem Definition
 Breast cancer is the cancer of cells in breast. Worldwide breast cancer is the leading type of cancer in women, accounting for 25% of all cases.  It is the second most common cancer diagnosed among women in United States. It can occur both in Men and Women but its far more common among women. Over the years, because of advancement in diagnosis and treatment, survival rate in breast cancer have increased and number of deaths associated with breast cancer have declined. The Most recent research has shown that the survival rate is 88% after 5 years of diagnosis and 80% after 10 years of diagnosis. Early detection means using an approach that helps breast cancer get diagnosed earlier in the timeline before the disease becomes aggressive. Breast cancer awareness and screening are the two main components which would aid in timely diagnosis and treatment. 
 Cells affected by cancer are called malignant cells. Malignant cells are different from normal cells in the body in that they divide very rapidly and invade surrounding tissues. When they divide at an accelerated rate, they often form a mass of tissue called a tumor. Sometimes cells multiply and form tumor without spreading to surrounding tissues and the tumor is not cancerous, those are called benign cells.
@@ -49,6 +51,16 @@ There are no features with null values and there are no duplicated records.
 
 ## Exploratory Data Analysis
 
+<img src = "Images/2.PNG" >
+
+<img src = "Images/3.PNG" >
+
+<img src = "Images/4.PNG" >
+
+<img src = "Images/5.PNG" >
+
+
+
 ### Observations:
 For several variables (like mean of cell radius, perimeter, concavity, area, compactness and concave points), larger values showed correlation with malignant diagnosis.
 
@@ -56,6 +68,7 @@ Mean of smoothness, symmetry, texture and fractal dimension did not show specifi
 
 As we are comparing all the variables in the dataset, we are finding higher number of features are correlated. There are some correlated variables. And we are dropping :['perimeter_mean', 'area_mean', 'perimeter_se', 'area_se', 'radius_worst', 'perimeter_worst', 'area_worst']
 
+<img src = "Images/6.PNG" >
 
 ## Model Development AND Best Model Selection
 
@@ -65,8 +78,12 @@ Logistic Regression : Easier and simpler and very efficient to train.
 Logistic Regression with Hyperparameter tunning.
 Random Forest Classifier : Random forest is robust, accurate, efficient and relatively quick to develop.
 
+<img src = "Images/7.PNG" >
 
-Above two models were trained, tested and evaluated. Metrics used for this analysis was Accuracy and Recall value. In machine learning our goal is to minimize Type I (FP) and Type II errors (FN). In an ideal case, a perfect model should have none of these errors. However, this is not possible in real world and we must balance between precision and recall. Even though, in the models we have tested, Accuracy was 97% in both Random Forest and Logistic Regression, Logistic Regression was chosen as a best model because it maximized the Recall value. Still, there were 2 False negative predictions in our best prediction which was lower than in Random Forest. In this scenario, we prefer a model which would minimize false negatives hence helping us to not miss cancers which require intensive treatment as soon as they are diagnosed. 
+<img src = "Images/8.PNG" >
+
+Above  models were trained, tested and evaluated. Metrics used for this analysis was Accuracy and Recall value. In machine learning our goal is to minimize Type I (FP) and Type II errors (FN). In an ideal case, a perfect model should have none of these errors. However, this is not possible in real world and we must balance between precision and recall. Even though, in the models we have tested, Accuracy was 97% in both Random Forest and Logistic Regression, Logistic Regression was chosen as a best model because it maximized the Recall value. Still, there were 2 False negative predictions in our best prediction which was lower than in Random Forest. In this scenario, we prefer a model which would minimize false negatives hence helping us to not miss cancers which require intensive treatment as soon as they are diagnosed. 
+
 
 
 ## References
