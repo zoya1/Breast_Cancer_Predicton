@@ -66,7 +66,7 @@ For several variables (like mean of cell radius, perimeter, concavity, area, com
 
 Mean of smoothness, symmetry, texture and fractal dimension did not show specific preference for one diagnosis than to another.
 
-As we are comparing all the variables in the dataset, we are finding higher number of features are correlated. There are some correlated variables. And we are dropping :['perimeter_mean', 'area_mean', 'perimeter_se', 'area_se', 'radius_worst', 'perimeter_worst', 'area_worst']
+As we were comparing all the variables in the dataset, we found several features were correlated. These were some correlated variables. And we dropped :['perimeter_mean', 'area_mean', 'perimeter_se', 'area_se', 'radius_worst', 'perimeter_worst', 'area_worst'].
 
 <img src = "Images/6.PNG" >
 
