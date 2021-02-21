@@ -8,6 +8,33 @@ Cells affected by cancer are called malignant cells. Malignant cells are differe
 
 The objective of the study was to predict if the patient had benign or malignant tumor on the basis of numerical measurements of cellular images.  
 
+## Project Motivation
+
+As Breast cancer is one of the leading cause of cancer globally, the aim of this study was to address following questions,
+
+1. How do benign and malignant tumor cells differ in their sizes?
+
+2. Do the symmetry and texture of tumor cells have any role in their malignancy?
+
+3. What is the accuracy of these models in diagnosing breast cancer tumors ?
+
+
+## Requirements
+
+Libraries needed for the notebook to run were,
+
+1. pandas === 1.1.3
+2. numpy == 1.19.2
+3. matplotlib == 3.3.2
+4. scikit-learn === 0.23.2
+5. seaborn == 0.11.0
+
+## Files in the Repository
+
+ 1.Breast_Cancer_Prediction.ipynb
+
+
+
 ## Data Collection
 
 The dataset is taken from Wisconsin Breast Cancer database from UCI machine learning repository https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
