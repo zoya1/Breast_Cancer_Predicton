@@ -37,7 +37,7 @@ Libraries needed for the notebook to run were,
 
 ## Results:
 
-Please find analysis in a blog post [here](https://jayashar.medium.com/breast-cancer-diagnosis-through-the-lens-of-machine-learning-d50cf505c00f)
+Please find my summary of analysis in a blog post [here](https://jayashar.medium.com/breast-cancer-diagnosis-through-the-lens-of-machine-learning-d50cf505c00f)
 
 ## Data Collection
 
@@ -118,4 +118,6 @@ Above  models were trained, tested and evaluated. Metrics used for this analysis
 
 
 ## References
-1. https://th.bing.com/th/id/R723ed7f0e95e83a2efa4853acd13978e?rik=s2%2b0Bo%2fCCmqdsQ&riu=http%3a%2f%2fimages.medicinenet.com%2fimages%2fquiz%2fbreast-cancer%2fbreast-cancer-s-6.jpg&ehk=JrPYGsFg%2fZGv976FHQ%2b%2b7mRHUwjGYgMCokKJ6iFtDAo%3d&risl=&pid=ImgRaw
+1. https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+2. https://th.bing.com/th/id/R723ed7f0e95e83a2efa4853acd13978e?rik=s2%2b0Bo%2fCCmqdsQ&riu=http%3a%2f%2fimages.medicinenet.com%2fimages%2fquiz%2fbreast-cancer%2fbreast-cancer-s-6.jpg&ehk=JrPYGsFg%2fZGv976FHQ%2b%2b7mRHUwjGYgMCokKJ6iFtDAo%3d&risl=&pid=ImgRaw
+ 
