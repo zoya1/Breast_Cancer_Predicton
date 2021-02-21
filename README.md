@@ -37,7 +37,7 @@ Libraries needed for the notebook to run were,
 
 ## Results:
 
-Please find analysis in a blog post [here] (https://jayashar.medium.com/breast-cancer-diagnosis-through-the-lens-of-machine-learning-d50cf505c00f)
+Please find analysis in a blog post [link to Google!](http://google.com)[here] (https://jayashar.medium.com/breast-cancer-diagnosis-through-the-lens-of-machine-learning-d50cf505c00f)
 
 ## Data Collection
 
