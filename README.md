@@ -28,6 +28,7 @@ Libraries needed for the notebook to run were,
 3. matplotlib == 3.3.2
 4. scikit-learn === 0.23.2
 5. seaborn == 0.11.0
+6. python == 3.8.5
 
 ## Files in the Repository
 
