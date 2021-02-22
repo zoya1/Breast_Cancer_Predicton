@@ -8,6 +8,38 @@ Cells affected by cancer are called malignant cells. Malignant cells are differe
 
 The objective of the study was to predict if the patient had benign or malignant tumor on the basis of numerical measurements of cellular images.  
 
+## Project Motivation
+
+As Breast cancer is one of the leading cause of cancer globally, the aim of this study was to address following questions,
+
+1. How do benign and malignant tumor cells differ in their sizes?
+
+2. Do the symmetry and texture of tumor cells have any role in their malignancy?
+
+3. What is the accuracy of these models in diagnosing breast cancer tumors ?
+
+
+## Requirements
+
+Libraries needed for the notebook to run were,
+
+1. pandas === 1.1.3
+2. numpy == 1.19.2
+3. matplotlib == 3.3.2
+4. scikit-learn === 0.23.2
+5. seaborn == 0.11.0
+6. python == 3.8.5
+
+## Files in the Repository
+
+ 1.Breast_Cancer_Prediction.ipynb : Jupyter notebook containing the  project
+ 2. Images : Folders containing images for Readme file.
+ 3. data.csv : CSV file containing all data
+
+## Results:
+
+Please find my summary of analysis in a blog post [here](https://jayashar.medium.com/breast-cancer-diagnosis-through-the-lens-of-machine-learning-d50cf505c00f)
+
 ## Data Collection
 
 The dataset is taken from Wisconsin Breast Cancer database from UCI machine learning repository https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
@@ -87,4 +119,6 @@ Above  models were trained, tested and evaluated. Metrics used for this analysis
 
 
 ## References
-1. https://th.bing.com/th/id/R723ed7f0e95e83a2efa4853acd13978e?rik=s2%2b0Bo%2fCCmqdsQ&riu=http%3a%2f%2fimages.medicinenet.com%2fimages%2fquiz%2fbreast-cancer%2fbreast-cancer-s-6.jpg&ehk=JrPYGsFg%2fZGv976FHQ%2b%2b7mRHUwjGYgMCokKJ6iFtDAo%3d&risl=&pid=ImgRaw
+1. https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+2. https://th.bing.com/th/id/R723ed7f0e95e83a2efa4853acd13978e?rik=s2%2b0Bo%2fCCmqdsQ&riu=http%3a%2f%2fimages.medicinenet.com%2fimages%2fquiz%2fbreast-cancer%2fbreast-cancer-s-6.jpg&ehk=JrPYGsFg%2fZGv976FHQ%2b%2b7mRHUwjGYgMCokKJ6iFtDAo%3d&risl=&pid=ImgRaw
+ 
